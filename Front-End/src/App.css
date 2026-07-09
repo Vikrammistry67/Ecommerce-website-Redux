@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+}
+
+
+button{
+    padding: 7px 52px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 18px;
+    width: 100vw;
+    height: 10vh;
+    /* background-color: orangered; */
+}
+
+.logo {
+    width: 20vw;
+    height: fit-content;
+    /* background-color: blue; */
+}
+
+.navbar {
+    width: 80vw;
+    height: fit-content;
+    /* background-color: rgba(17, 131, 106, 0.658); */
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    /* background-color: darkolivegreen; */
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    /* background-color: crimson; */
+}
